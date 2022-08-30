@@ -1,15 +1,10 @@
-function start() {
-    alert('start is active');
-}
-
-
-    document.getElementById("stop").addEventListener("click", myfunction());
-
-function myfunction() {
-    alert('hello stop is active')
-
-
-/* document.getElementById('stop').addEventListener('click',function(){
-    alert('stop is active')
-}) */
+window.onload=function(){
+    let event=document.getElementById('start')
+    event.addEventListener('click',function(){
+        alert('start is active');
+    })
+    let event2=document.getElementById('stop');
+    event2.addEventListener('click', function(){
+        alert('stop is active')
+    })
 }
