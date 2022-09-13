@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    background-color: blanchedalmond;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+button{
+    background-color: red;
+    font-weight: bolder;
+    padding: 2vh;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
